@@ -46,7 +46,7 @@ namespace WindowsFormsApplication1
 
                 // Save into a PDF.
                 string filename = saveTo + "\\" + s.Name + ".pdf";
-                const int xlQualityStandard = 1;
+                const int xlQualityStandard = 2;
 
                 s.ExportAsFixedFormat(
                 Microsoft.Office.Interop.Excel.XlFixedFormatType.xlTypePDF,
